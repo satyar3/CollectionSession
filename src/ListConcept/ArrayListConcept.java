@@ -9,6 +9,7 @@ public class ArrayListConcept {
 		// TODO Auto-generated method stub
 		
 		//int i[] = new int[3]; //static array i.e size is fixed
+		//int k = i.length;
 		
 		//dynamic array i.e ArrayList
 		//1.it can contain duplicate value

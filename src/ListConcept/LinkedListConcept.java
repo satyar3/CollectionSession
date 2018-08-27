@@ -26,9 +26,9 @@ public class LinkedListConcept {
 		System.out.println(ll);
 		
 		//get
-		System.out.println(ll.get(0));
-		System.out.println(ll.get(1));
-		System.out.println(ll.get(2));
+		//System.out.println(ll.get(0));
+		//System.out.println(ll.get(1));
+		System.out.println(ll.get(2)+"***$$$$$$$$$$$*********");
 		
 		//set
 		ll.set(1, "TOM");
@@ -66,7 +66,7 @@ public class LinkedListConcept {
 		System.out.println("***************");
 		while(it.hasNext())
 		{
-			System.out.println(it.next());
+			System.out.println(it.next()+"####################");
 		}
 		/*System.out.println("***********************");
 		for(;it.hasNext();)
@@ -85,5 +85,4 @@ public class LinkedListConcept {
 			i++;
 		}
 	}
-
 }

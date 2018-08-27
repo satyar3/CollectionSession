@@ -2,11 +2,11 @@ package ListConcept;
 
 public class Employee {
 
-	String empName;
-	int age;
-	String department;
+	public String empName;
+	public int age;
+	public String department;
 	
-	Employee(String empName, int age, String department)
+	public Employee(String empName, int age, String department)
 	{
 		this.empName = empName;
 		this.age = age;

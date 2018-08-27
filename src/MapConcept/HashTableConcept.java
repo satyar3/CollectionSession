@@ -1,4 +1,4 @@
-package ListConcept;
+package MapConcept;
 
 import java.util.Enumeration;
 import java.util.Hashtable;
@@ -31,7 +31,7 @@ public class HashTableConcept {
 		
 		System.out.println(hs1);
 		
-		if(hs.containsKey("QA"))
+		if(hs.containsValue("QA"))
 		{		
 			System.out.println("exisit");
 		}
@@ -55,6 +55,8 @@ public class HashTableConcept {
 		hs11.put(1, "Tom");
 		hs11.put(2, "Test");
 		hs11.put(3,"QA");
+		System.out.println(hs11.get(3)+"*********");
+		
 		
 		if(hs11.equals(hs))
 			System.out.println("true matching");		
